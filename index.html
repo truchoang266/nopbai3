@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+        
+            
+        }
+        
+        .header{
+            background-image: URL(IMG/bg_header.jpg);
+            height:80vh;
+            background-size:cover;
+            background-position: center;
+            padding: 30px;
+        }
+
+        .nav{
+            background-color:red;
+            width:90%;
+            margin: 0px auto;
+            display: flex;
+
+        }    
+
+        .nav .logo{
+            width: 30%;
+            padding: 0px 20px;
+        }
+
+        .nav .logo img{
+            width: 200px;
+        }
+        .nav .menu{
+            width: 70%;
+            display: flex;
+            justify-content: flex-end;
+            text-transform:uppercase;
+            align-items: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight:300;
+        }
+
+
+        .nav .menu a{
+            text-decoration:none;
+            color: white;
+            padding: 30px;
+
+
+        }
+        .contain {
+            text-transform:uppercase;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-align:center;
+            margin: 200px;
+            
+        }
+
+        .contain h1{
+            color:white;
+            font-size:90px;
+            margin-bottom: 20px;
+            
+        }
+
+        .contain .sub{
+            color: red;
+            
+        }
+
+        .contain p{
+            color: lightgray;
+            margin-top: 25px;
+        }
+        .contain button{
+            background-color:red;
+            padding: 15px 30px;
+            text-transform: uppercase;
+            color: white;
+            border: none;
+            margin: 25px;     
+        }
+
+        .contain button a{
+            text-decoration: none;
+            color: white;
+        }
+
+
+        .fa-chevron-right{
+            color: white;
+            padding: 10px;
+        }
+
+        hr{
+            width: 70px;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="logo">
+                <a href="#"><img src="IMG/logo.png"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <il><a href="#">Home</a></il>
+                    <il><a href="#">About us</a></il>
+                    <il><a href="#">Services</a></il>
+                    <il><a href="#">Project</a></il>
+                    <il><a href="#">Blog/News</a></il>
+                    <il><a href="#">shop</a></il>
+                </ul>
+            </div>
+        </div>
+        <div class="contain">
+            <h1>Think Big. <span class="sub">We do.</span></h1>
+            <hr>
+            <p>Capitalise on low hanging fruit to identify a ballpark</p>
+            <button><a href="#">Our porfolio</a><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </div>
+</body>
+</html>
